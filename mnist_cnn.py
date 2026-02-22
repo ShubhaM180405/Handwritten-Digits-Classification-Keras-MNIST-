@@ -39,3 +39,4 @@ model.fit(x_train, y_train, epochs=5, validation_split=0.2)
 test_loss, test_acc = model.evaluate(x_test, y_test)
 
 print("Test Accuracy:", test_acc)
+model.save("mnist_model.h5")
