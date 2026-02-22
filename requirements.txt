@@ -1,5 +1,7 @@
-tensorflow
 matplotlib
-numpy
 scikit-learn
 seaborn
+tensorflow
+numpy
+gradio
+pillow
